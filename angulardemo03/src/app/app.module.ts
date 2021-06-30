@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { NewsComponent } from './components/news/news.component';
-
 @NgModule({
   declarations: [
     AppComponent,
