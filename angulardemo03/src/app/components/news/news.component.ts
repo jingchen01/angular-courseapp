@@ -12,6 +12,8 @@ export class NewsComponent implements OnInit {
   content: string;
   username: string;
   user01: User = new User();
+  htmlContent: string;
+
 
   constructor() { 
     this.title = 'This is a news component.';
@@ -19,6 +21,8 @@ export class NewsComponent implements OnInit {
     this.username = 'Smith';
 
     this.user01.name = 'Andy';
+
+    this.htmlContent = '<h3>This is an inner html.</h3>'
   }
 
   ngOnInit(): void {
