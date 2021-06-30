@@ -9,10 +9,12 @@ export class NewsComponent implements OnInit {
 
   title: string;
   content: string;
+  user: string;
 
   constructor() { 
     this.title = 'This is a news component.';
-    this.content = 'This is the news content.'
+    this.content = 'This is the news content.';
+    this.user = 'Smith';
   }
 
   ngOnInit(): void {
